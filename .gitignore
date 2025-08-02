@@ -1,0 +1,49 @@
+cat > .github/workflows/youtube-analytics.yml << 'EOF'
+name: YouTube Analytics Collector
+
+on:
+  schedule:
+    # Runs every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests pandas
+    
+    - name: Collect YouTube data
+      env:
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      run: python scripts/collect_youtube_data.py
+    
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --staged --quiet || git commit -m "📊 Update YouTube analytics data [$(date +'%Y-%m-%d %H:%M')]"
+        git push
+    
+    - name: Generate summary report
+      run: python scripts/generate_report.py
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: youtube-analytics-data
+        path: data/
+        retention-days: 30

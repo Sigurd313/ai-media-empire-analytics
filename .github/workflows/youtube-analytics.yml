@@ -28,40 +28,13 @@ jobs:
       env:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       run: |
-        # Check if script exists
+        # Simple approach - just run the script if it exists
         if [ -f "scripts/collect_youtube_data.py" ]; then
           python scripts/collect_youtube_data.py
         else
           echo "Error: scripts/collect_youtube_data.py not found"
-          echo "Creating minimal test script..."
-          mkdir -p scripts data
-          cat > scripts/collect_youtube_data.py << 'EOF'
-import json
-from datetime import datetime
-
-# Test data to verify workflow
-test_data = {
-    "generated_at": datetime.now().isoformat(),
-    "channels": [
-        {
-            "channel_id": "test",
-            "title": "Test Channel",
-            "subscribers": 0,
-            "views": 0,
-            "videos": 0,
-            "timestamp": datetime.now().isoformat()
-        }
-    ],
-    "recent_videos": []
-}
-
-# Save test data
-with open('data/latest.json', 'w') as f:
-    json.dump(test_data, f, indent=2)
-
-print("✅ Test data created successfully")
-EOF
-          python scripts/collect_youtube_data.py
+          echo "Please ensure all scripts are committed to the repository"
+          exit 1
         fi
     
     - name: Commit and push if changed

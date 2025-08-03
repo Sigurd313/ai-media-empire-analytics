@@ -261,12 +261,23 @@ class AnalyticsDashboard:
         dashboard['recommendations'] = self.generate_recommendations(dashboard)
         
         # Key metrics for 5-minute decisions
+        youtube_total_subs = dashboard['youtube'].get('total_subscribers', 0) if 'youtube' in dashboard else 0
+        
+        # Find best channel
+        best_channel = 'N/A'
+        if dashboard.get('youtube', {}).get('channels'):
+            best = max(dashboard['youtube']['channels'], 
+                      key=lambda x: x.get('growth_rate_hourly', 0),
+                      default=None)
+            if best:
+                best_channel = best.get('name', 'N/A')
+        
         dashboard['summary'] = {
-            'total_reach': youtube_total_subs if self.youtube_data else 0,
+            'total_reach': youtube_total_subs,
             'growth_last_24h': self.calculate_growth_rate(self.youtube_history) if not self.youtube_history.empty else 0,
-            'best_channel': max(dashboard['youtube']['channels'], key=lambda x: x['growth_rate_hourly'])['name'] if dashboard['youtube']['channels'] else 'N/A',
+            'best_channel': best_channel,
             'alerts_count': len(dashboard['alerts']),
-            'days_to_1000_subs': dashboard['predictions']['total_subscribers']['reach_1000_days'] if dashboard['predictions'].get('total_subscribers') else None
+            'days_to_1000_subs': dashboard['predictions'].get('total_subscribers', {}).get('reach_1000_days') if dashboard.get('predictions', {}).get('total_subscribers') else None
         }
         
         return dashboard
@@ -276,60 +287,60 @@ class AnalyticsDashboard:
         recommendations = []
         
         # Check growth rates
-        for channel in dashboard['youtube']['channels']:
-            if channel['growth_rate_hourly'] < 0.1:
+        for channel in dashboard.get('youtube', {}).get('channels', []):
+            if channel.get('growth_rate_hourly', 0) < 0.1:
                 recommendations.append({
                     'priority': 'HIGH',
-                    'channel': channel['name'],
+                    'channel': channel.get('name', 'Unknown'),
                     'action': 'Increase posting frequency or improve content quality',
-                    'reason': f"Growth rate only {channel['growth_rate_hourly']:.2f}% per hour"
+                    'reason': f"Growth rate only {channel.get('growth_rate_hourly', 0):.2f}% per hour"
                 })
             
-            if channel['engagement_rate'] < 50:
+            if channel.get('engagement_rate', 0) < 50:
                 recommendations.append({
                     'priority': 'MEDIUM',
-                    'channel': channel['name'],
+                    'channel': channel.get('name', 'Unknown'),
                     'action': 'Improve thumbnails and titles',
-                    'reason': f"Low engagement rate: {channel['engagement_rate']:.1f}%"
+                    'reason': f"Low engagement rate: {channel.get('engagement_rate', 0):.1f}%"
                 })
         
         # Check ROI
-        for channel, roi in dashboard['roi'].items():
-            if roi['roi_percent'] < -50:
+        for channel, roi in dashboard.get('roi', {}).items():
+            if roi.get('roi_percent', 0) < -50:
                 recommendations.append({
                     'priority': 'HIGH',
                     'channel': channel,
                     'action': 'Reduce costs or pivot strategy',
-                    'reason': f"ROI is {roi['roi_percent']:.1f}% (losing money)"
+                    'reason': f"ROI is {roi.get('roi_percent', 0):.1f}% (losing money)"
                 })
         
         # Check alerts
-        if len(dashboard['alerts']) > 0:
+        if len(dashboard.get('alerts', [])) > 0:
             recommendations.append({
                 'priority': 'URGENT',
                 'channel': 'Multiple',
                 'action': 'Investigate anomalies immediately',
-                'reason': f"{len(dashboard['alerts'])} alerts detected"
+                'reason': f"{len(dashboard.get('alerts', []))} alerts detected"
             })
         
         return recommendations
     
-def save_dashboard(self, dashboard):
-    """Save dashboard to JSON and Markdown with proper None handling"""
-    # Save JSON
-    with open('data/dashboard.json', 'w', encoding='utf-8') as f:
-        json.dump(dashboard, f, indent=2, ensure_ascii=False)
-    
-    # Safe get with defaults for all values
-    summary = dashboard.get('summary', {})
-    total_reach = summary.get('total_reach', 0) or 0
-    growth_24h = summary.get('growth_last_24h', 0) or 0
-    best_channel = summary.get('best_channel', 'N/A') or 'N/A'
-    alerts_count = summary.get('alerts_count', 0) or 0
-    days_to_1000 = summary.get('days_to_1000_subs')
-    
-    # Generate Markdown report with defensive formatting
-    report = f"""# 🚀 AI Media Empire - Real-time Analytics Dashboard
+    def save_dashboard(self, dashboard):
+        """Save dashboard to JSON and Markdown with proper None handling"""
+        # Save JSON
+        with open('data/dashboard.json', 'w', encoding='utf-8') as f:
+            json.dump(dashboard, f, indent=2, ensure_ascii=False)
+        
+        # Safe get with defaults for all values
+        summary = dashboard.get('summary', {})
+        total_reach = summary.get('total_reach', 0) or 0
+        growth_24h = summary.get('growth_last_24h', 0) or 0
+        best_channel = summary.get('best_channel', 'N/A') or 'N/A'
+        alerts_count = summary.get('alerts_count', 0) or 0
+        days_to_1000 = summary.get('days_to_1000_subs')
+        
+        # Generate Markdown report with defensive formatting
+        report = f"""# 🚀 AI Media Empire - Real-time Analytics Dashboard
 
 *Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
 
@@ -344,74 +355,75 @@ def save_dashboard(self, dashboard):
 ## 🚨 Alerts & Anomalies
 
 """
-    # Handle alerts safely
-    alerts = dashboard.get('alerts', [])
-    if alerts:
-        for alert in alerts:
-            emoji = '📉' if alert.get('type') == 'drop' else '📈'
-            channel = alert.get('channel', 'Unknown')
-            metric = alert.get('metric', 'metric')
-            change = alert.get('change', 'N/A')
-            expected = alert.get('expected', 0)
-            current = alert.get('current', 0)
-            report += f"- {emoji} **{channel}**: {metric} {change} (expected: {expected}, actual: {current})\n"
-    else:
-        report += "✅ No anomalies detected\n"
-    
-    report += "\n## 📊 Channel Performance\n\n"
-    report += "| Channel | Subscribers | Growth/hour | Engagement | 7-day Prediction |\n"
-    report += "|---------|------------|-------------|------------|------------------|\n"
-    
-    # Handle YouTube channels safely
-    youtube_channels = dashboard.get('youtube', {}).get('channels', [])
-    for channel in youtube_channels:
-        name = channel.get('name', 'Unknown')
-        subscribers = channel.get('subscribers', 0) or 0
-        growth_rate = channel.get('growth_rate_hourly', 0) or 0
-        engagement = channel.get('engagement_rate', 0) or 0
-        predictions = channel.get('predictions', {})
-        pred_7d = predictions.get('predicted_7d') if predictions else None
-        pred_str = str(pred_7d) if pred_7d is not None else 'N/A'
+        # Handle alerts safely
+        alerts = dashboard.get('alerts', [])
+        if alerts:
+            for alert in alerts:
+                emoji = '📉' if alert.get('type') == 'drop' else '📈'
+                channel = alert.get('channel', 'Unknown')
+                metric = alert.get('metric', 'metric')
+                change = alert.get('change', 'N/A')
+                expected = alert.get('expected', 0)
+                current = alert.get('current', 0)
+                report += f"- {emoji} **{channel}**: {metric} {change} (expected: {expected}, actual: {current})\n"
+        else:
+            report += "✅ No anomalies detected\n"
         
-        report += f"| {name} | {subscribers:,} | {growth_rate:.2f}% | {engagement:.1f}% | {pred_str} |\n"
-    
-    report += "\n## 💰 ROI Analysis\n\n"
-    report += "| Channel | Cost | Potential Revenue | ROI | Status |\n"
-    report += "|---------|------|------------------|-----|--------|\n"
-    
-    # Handle ROI safely
-    roi_data = dashboard.get('roi', {})
-    for channel, roi in roi_data.items():
-        cost = roi.get('cost', 0) or 0
-        revenue = roi.get('potential_revenue', 0) or 0
-        roi_percent = roi.get('roi_percent', 0) or 0
-        status = roi.get('status', 'unknown')
-        status_emoji = '✅' if status == 'profitable' else '❌'
-        report += f"| {channel} | ${cost} | ${revenue:.0f} | {roi_percent:.1f}% | {status_emoji} {status} |\n"
-    
-    report += "\n## 📋 Recommendations\n\n"
-    
-    # Handle recommendations safely
-    recommendations = dashboard.get('recommendations', [])
-    priority_order = {'URGENT': 0, 'HIGH': 1, 'MEDIUM': 2, 'LOW': 3}
-    sorted_recs = sorted(recommendations, key=lambda x: priority_order.get(x.get('priority', 'LOW'), 99))
-    
-    for rec in sorted_recs:
-        priority = rec.get('priority', 'LOW')
-        emoji = {'URGENT': '🔴', 'HIGH': '🟠', 'MEDIUM': '🟡', 'LOW': '🟢'}.get(priority, '⚪')
-        channel = rec.get('channel', 'Unknown')
-        action = rec.get('action', 'No action specified')
-        reason = rec.get('reason', 'No reason provided')
-        report += f"{emoji} **{priority}** - {channel}: {action}\n"
-        report += f"   - *Reason: {reason}*\n\n"
-    
-    # Save markdown
-    with open('dashboard.md', 'w', encoding='utf-8') as f:
-        f.write(report)
-    
-    print("✅ Dashboard saved to dashboard.md and data/dashboard.json")
-    
-    return report
+        report += "\n## 📊 Channel Performance\n\n"
+        report += "| Channel | Subscribers | Growth/hour | Engagement | 7-day Prediction |\n"
+        report += "|---------|------------|-------------|------------|------------------|\n"
+        
+        # Handle YouTube channels safely
+        youtube_channels = dashboard.get('youtube', {}).get('channels', [])
+        for channel in youtube_channels:
+            name = channel.get('name', 'Unknown')
+            subscribers = channel.get('subscribers', 0) or 0
+            growth_rate = channel.get('growth_rate_hourly', 0) or 0
+            engagement = channel.get('engagement_rate', 0) or 0
+            predictions = channel.get('predictions', {})
+            pred_7d = predictions.get('predicted_7d') if predictions else None
+            pred_str = str(pred_7d) if pred_7d is not None else 'N/A'
+            
+            report += f"| {name} | {subscribers:,} | {growth_rate:.2f}% | {engagement:.1f}% | {pred_str} |\n"
+        
+        report += "\n## 💰 ROI Analysis\n\n"
+        report += "| Channel | Cost | Potential Revenue | ROI | Status |\n"
+        report += "|---------|------|------------------|-----|--------|\n"
+        
+        # Handle ROI safely
+        roi_data = dashboard.get('roi', {})
+        for channel, roi in roi_data.items():
+            cost = roi.get('cost', 0) or 0
+            revenue = roi.get('potential_revenue', 0) or 0
+            roi_percent = roi.get('roi_percent', 0) or 0
+            status = roi.get('status', 'unknown')
+            status_emoji = '✅' if status == 'profitable' else '❌'
+            report += f"| {channel} | ${cost} | ${revenue:.0f} | {roi_percent:.1f}% | {status_emoji} {status} |\n"
+        
+        report += "\n## 📋 Recommendations\n\n"
+        
+        # Handle recommendations safely
+        recommendations = dashboard.get('recommendations', [])
+        priority_order = {'URGENT': 0, 'HIGH': 1, 'MEDIUM': 2, 'LOW': 3}
+        sorted_recs = sorted(recommendations, key=lambda x: priority_order.get(x.get('priority', 'LOW'), 99))
+        
+        for rec in sorted_recs:
+            priority = rec.get('priority', 'LOW')
+            emoji = {'URGENT': '🔴', 'HIGH': '🟠', 'MEDIUM': '🟡', 'LOW': '🟢'}.get(priority, '⚪')
+            channel = rec.get('channel', 'Unknown')
+            action = rec.get('action', 'No action specified')
+            reason = rec.get('reason', 'No reason provided')
+            report += f"{emoji} **{priority}** - {channel}: {action}\n"
+            report += f"   - *Reason: {reason}*\n\n"
+        
+        # Save markdown
+        with open('dashboard.md', 'w', encoding='utf-8') as f:
+            f.write(report)
+        
+        print("✅ Dashboard saved to dashboard.md and data/dashboard.json")
+        
+        return report
+
 def main():
     """Generate dashboard"""
     dashboard = AnalyticsDashboard()

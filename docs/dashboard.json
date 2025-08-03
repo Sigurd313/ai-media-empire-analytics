@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-03T16:58:23.747177",
+  "generated_at": "2025-08-03T17:10:04.661505",
   "summary": {
     "total_reach": 87,
     "growth_last_24h": 0.0,
@@ -21,7 +21,7 @@
           "current": 87,
           "predicted_7d": 87,
           "daily_growth": 0,
-          "reach_1000_days": 4.742751807428798e+16
+          "reach_1000_days": 1.436776145180169e+16
         },
         "alerts": []
       }
@@ -58,14 +58,14 @@
   "predictions": {
     "total_subscribers": {
       "current": 87,
-      "predicted_7d": -10178,
-      "daily_growth": -1459,
+      "predicted_7d": -8480,
+      "daily_growth": -1215,
       "reach_1000_days": null
     },
     "total_views": {
       "current": 211208,
-      "predicted_7d": -5726888,
-      "daily_growth": -844222,
+      "predicted_7d": -4743739,
+      "daily_growth": -703123,
       "reach_1000_days": null
     }
   },

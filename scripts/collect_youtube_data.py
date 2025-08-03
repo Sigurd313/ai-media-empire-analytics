@@ -167,6 +167,8 @@ def main():
     
     # Save results to JSON
     print("\nSaving data...")
+
+    os.makedirs('data', exist_ok=True)
     
     # Save latest snapshot
     with open('data/latest.json', 'w', encoding='utf-8') as f:

@@ -1,0 +1,62 @@
+# .github/workflows/telegram-analytics.yml
+name: Telegram Analytics Collector
+
+on:
+  schedule:
+    - cron: '30 * * * *'  # Every hour at :30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests pandas
+    
+    - name: Collect Telegram data
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      run: |
+        if [ -f "scripts/collect_telegram_data.py" ]; then
+          python scripts/collect_telegram_data.py
+        else
+          echo "Error: scripts/collect_telegram_data.py not found"
+          exit 1
+        fi
+    
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --staged --quiet || git commit -m "📱 Update Telegram analytics data [$(date +'%Y-%m-%d %H:%M')]"
+        git push || echo "No changes to push"
+    
+    - name: Generate combined report
+      run: |
+        if [ -f "scripts/generate_combined_report.py" ]; then
+          python scripts/generate_combined_report.py
+        else
+          echo "Report generator not found, skipping..."
+        fi
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: telegram-analytics-data
+        path: data/telegram_*
+        retention-days: 30

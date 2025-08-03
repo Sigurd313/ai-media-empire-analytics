@@ -1,0 +1,125 @@
+{
+  "generated_at": "2025-08-03T16:58:23.747177",
+  "summary": {
+    "total_reach": 87,
+    "growth_last_24h": 0.0,
+    "best_channel": "Шум Мотора",
+    "alerts_count": 0,
+    "days_to_1000_subs": null
+  },
+  "youtube": {
+    "total_subscribers": 87,
+    "total_views": 211208,
+    "channels": [
+      {
+        "name": "Шум Мотора",
+        "subscribers": 87,
+        "views": 211208,
+        "growth_rate_hourly": 0.0,
+        "engagement_rate": 7356.60048763497,
+        "predictions": {
+          "current": 87,
+          "predicted_7d": 87,
+          "daily_growth": 0,
+          "reach_1000_days": 4.742751807428798e+16
+        },
+        "alerts": []
+      }
+    ]
+  },
+  "telegram": {
+    "channels": [
+      {
+        "name": "AI без правил",
+        "username": "@ai_bez_pravil",
+        "subscribers": 269,
+        "bot_is_admin": true
+      },
+      {
+        "name": "Исследователь Счастья",
+        "username": "@agecrisis",
+        "subscribers": 324,
+        "bot_is_admin": true
+      },
+      {
+        "name": "После Титров",
+        "username": "@watchx2",
+        "subscribers": 34,
+        "bot_is_admin": true
+      },
+      {
+        "name": "Шум Мотора (Palych)",
+        "username": "@shum_motora",
+        "subscribers": 52,
+        "bot_is_admin": true
+      }
+    ]
+  },
+  "predictions": {
+    "total_subscribers": {
+      "current": 87,
+      "predicted_7d": -10178,
+      "daily_growth": -1459,
+      "reach_1000_days": null
+    },
+    "total_views": {
+      "current": 211208,
+      "predicted_7d": -5726888,
+      "daily_growth": -844222,
+      "reach_1000_days": null
+    }
+  },
+  "alerts": [],
+  "roi": {
+    "Шум Мотора": {
+      "cost": 500,
+      "potential_revenue": 35.20133333333334,
+      "roi_percent": -92.95973333333333,
+      "status": "loss"
+    },
+    "AI без правил": {
+      "cost": 100,
+      "potential_revenue": 384.2857142857143,
+      "roi_percent": 284.2857142857143,
+      "status": "profitable"
+    },
+    "Исследователь Счастья": {
+      "cost": 100,
+      "potential_revenue": 462.8571428571429,
+      "roi_percent": 362.8571428571429,
+      "status": "profitable"
+    },
+    "После Титров": {
+      "cost": 100,
+      "potential_revenue": 48.57142857142858,
+      "roi_percent": -51.42857142857142,
+      "status": "loss"
+    },
+    "Шум Мотора (Palych)": {
+      "cost": 100,
+      "potential_revenue": 74.28571428571429,
+      "roi_percent": -25.714285714285705,
+      "status": "loss"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "channel": "Шум Мотора",
+      "action": "Increase posting frequency or improve content quality",
+      "reason": "Growth rate only 0.00% per hour"
+    },
+    {
+      "priority": "HIGH",
+      "channel": "Шум Мотора",
+      "action": "Reduce costs or pivot strategy",
+      "reason": "ROI is -93.0% (losing money)"
+    },
+    {
+      "priority": "HIGH",
+      "channel": "После Титров",
+      "action": "Reduce costs or pivot strategy",
+      "reason": "ROI is -51.4% (losing money)"
+    }
+  ]
+}

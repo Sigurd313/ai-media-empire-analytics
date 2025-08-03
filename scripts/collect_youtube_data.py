@@ -18,9 +18,6 @@ if not API_KEY:
 # Channels to track
 CHANNELS = {
     'shum_motora': 'Шум Мотора (Palych)',
-    'ai_bez_pravil': 'AI без правил',
-    'agecrisis': 'Исследователь Счастья',
-    'watchx2': 'После Титров',
     # Add more channels as needed
 }
 

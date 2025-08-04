@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-04T07:20:52.168138",
+  "generated_at": "2025-08-04T07:47:59.012482",
   "summary": {
     "total_reach": 89,
     "growth_last_24h": 0.10663809683252093,
@@ -32,7 +32,7 @@
       {
         "name": "AI без правил",
         "username": "@ai_bez_pravil",
-        "subscribers": 269,
+        "subscribers": 268,
         "bot_is_admin": true
       },
       {
@@ -44,7 +44,7 @@
       {
         "name": "После Титров",
         "username": "@watchx2",
-        "subscribers": 34,
+        "subscribers": 35,
         "bot_is_admin": true
       },
       {
@@ -79,8 +79,8 @@
     },
     "AI без правил": {
       "cost": 100,
-      "potential_revenue": 384.2857142857143,
-      "roi_percent": 284.2857142857143,
+      "potential_revenue": 382.85714285714283,
+      "roi_percent": 282.85714285714283,
       "status": "profitable"
     },
     "Исследователь Счастья": {
@@ -91,8 +91,8 @@
     },
     "После Титров": {
       "cost": 100,
-      "potential_revenue": 48.57142857142858,
-      "roi_percent": -51.42857142857142,
+      "potential_revenue": 50.00000000000001,
+      "roi_percent": -49.99999999999999,
       "status": "loss"
     },
     "Шум Мотора (Palych)": {
@@ -108,12 +108,6 @@
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
       "reason": "ROI is -92.9% (losing money)"
-    },
-    {
-      "priority": "HIGH",
-      "channel": "После Титров",
-      "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -51.4% (losing money)"
     }
   ]
 }

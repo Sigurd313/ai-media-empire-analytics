@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-06T02:53:43.136693",
+  "generated_at": "2025-08-06T02:57:30.259648",
   "summary": {
     "total_reach": 112,
-    "growth_last_24h": 1.0529454166265475,
+    "growth_last_24h": 0.9628066435263881,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
   },
   "youtube": {
     "total_subscribers": 112,
-    "total_views": 244239,
+    "total_views": 283503,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 112,
-        "views": 244239,
-        "growth_rate_hourly": 1.0529454166265475,
-        "engagement_rate": 5591.552197802198,
+        "views": 283503,
+        "growth_rate_hourly": 0.9628066435263881,
+        "engagement_rate": 6490.4532967032965,
         "predictions": {
           "current": 112,
-          "predicted_7d": 179,
+          "predicted_7d": 181,
           "daily_growth": 10,
-          "reach_1000_days": 86.39334207055447
+          "reach_1000_days": 85.48010240677765
         },
         "alerts": []
       }
@@ -58,14 +58,14 @@
   "predictions": {
     "total_subscribers": {
       "current": 112,
-      "predicted_7d": -149,
-      "daily_growth": -31,
+      "predicted_7d": -139,
+      "daily_growth": -30,
       "reach_1000_days": null
     },
     "total_views": {
-      "current": 244239,
-      "predicted_7d": 127877,
-      "daily_growth": -12452,
+      "current": 283503,
+      "predicted_7d": 147985,
+      "daily_growth": -10065,
       "reach_1000_days": null
     }
   },
@@ -73,8 +73,8 @@
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 40.7065,
-      "roi_percent": -91.8587,
+      "potential_revenue": 47.2505,
+      "roi_percent": -90.54990000000001,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -91.9% (losing money)"
+      "reason": "ROI is -90.5% (losing money)"
     }
   ]
 }

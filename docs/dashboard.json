@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-07T19:53:06.850720",
+  "generated_at": "2025-08-07T20:12:06.899106",
   "summary": {
     "total_reach": 120,
-    "growth_last_24h": 0.31033936234309484,
+    "growth_last_24h": 0.2689578308759201,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
   },
   "youtube": {
     "total_subscribers": 120,
-    "total_views": 315169,
+    "total_views": 318072,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 120,
-        "views": 315169,
-        "growth_rate_hourly": 0.31033936234309484,
-        "engagement_rate": 5836.462962962963,
+        "views": 318072,
+        "growth_rate_hourly": 0.2689578308759201,
+        "engagement_rate": 5890.222222222222,
         "predictions": {
           "current": 120,
           "predicted_7d": 183,
           "daily_growth": 8,
-          "reach_1000_days": 98.69686931609706
+          "reach_1000_days": 99.01465736292596
         },
         "alerts": []
       }
@@ -58,23 +58,23 @@
   "predictions": {
     "total_subscribers": {
       "current": 120,
-      "predicted_7d": 46,
+      "predicted_7d": 48,
       "daily_growth": -7,
       "reach_1000_days": null
     },
     "total_views": {
-      "current": 315169,
-      "predicted_7d": 448600,
-      "daily_growth": 20571,
-      "reach_1000_days": -15.272080152394556
+      "current": 318072,
+      "predicted_7d": 450911,
+      "daily_growth": 20718,
+      "reach_1000_days": -15.303967572716518
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 52.528166666666664,
-      "roi_percent": -89.49436666666666,
+      "potential_revenue": 53.012,
+      "roi_percent": -89.3976,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -89.5% (losing money)"
+      "reason": "ROI is -89.4% (losing money)"
     }
   ]
 }

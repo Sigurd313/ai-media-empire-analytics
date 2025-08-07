@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-07T02:57:45.392712",
+  "generated_at": "2025-08-07T04:03:06.172481",
   "summary": {
     "total_reach": 113,
-    "growth_last_24h": 0.03896512968754939,
+    "growth_last_24h": 0.039385061368410475,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
   },
   "youtube": {
     "total_subscribers": 113,
-    "total_views": 307590,
+    "total_views": 312699,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 113,
-        "views": 307590,
-        "growth_rate_hourly": 0.03896512968754939,
-        "engagement_rate": 6481.036662452591,
+        "views": 312699,
+        "growth_rate_hourly": 0.039385061368410475,
+        "engagement_rate": 6588.685208596712,
         "predictions": {
           "current": 113,
           "predicted_7d": 183,
           "daily_growth": 9,
-          "reach_1000_days": 92.8083249987549
+          "reach_1000_days": 93.69474304561119
         },
         "alerts": []
       }
@@ -58,23 +58,23 @@
   "predictions": {
     "total_subscribers": {
       "current": 113,
-      "predicted_7d": -4,
-      "daily_growth": -13,
+      "predicted_7d": 0,
+      "daily_growth": -12,
       "reach_1000_days": null
     },
     "total_views": {
-      "current": 307590,
-      "predicted_7d": 386591,
-      "daily_growth": 15478,
-      "reach_1000_days": -19.807259464684204
+      "current": 312699,
+      "predicted_7d": 393003,
+      "daily_growth": 16075,
+      "reach_1000_days": -19.389403030690804
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 51.265,
-      "roi_percent": -89.747,
+      "potential_revenue": 52.1165,
+      "roi_percent": -89.5767,
       "status": "loss"
     },
     "AI без правил": {
@@ -113,7 +113,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -89.7% (losing money)"
+      "reason": "ROI is -89.6% (losing money)"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-08T14:57:43.501954",
+  "generated_at": "2025-08-08T15:11:41.173087",
   "summary": {
     "total_reach": 122,
-    "growth_last_24h": 0.10953084124279346,
+    "growth_last_24h": 0.10513865429868008,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
   },
   "youtube": {
     "total_subscribers": 122,
-    "total_views": 324869,
+    "total_views": 328060,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 122,
-        "views": 324869,
-        "growth_rate_hourly": 0.10953084124279346,
-        "engagement_rate": 5665.660969654691,
+        "views": 328060,
+        "growth_rate_hourly": 0.10513865429868008,
+        "engagement_rate": 5602.117486338798,
         "predictions": {
           "current": 122,
           "predicted_7d": 183,
           "daily_growth": 8,
-          "reach_1000_days": 106.50719536733477
+          "reach_1000_days": 107.10377118339908
         },
         "alerts": []
       }
@@ -58,23 +58,23 @@
   "predictions": {
     "total_subscribers": {
       "current": 122,
-      "predicted_7d": 78,
+      "predicted_7d": 80,
       "daily_growth": -3,
       "reach_1000_days": null
     },
     "total_views": {
-      "current": 324869,
-      "predicted_7d": 475087,
-      "daily_growth": 21525,
-      "reach_1000_days": -15.045648504131222
+      "current": 328060,
+      "predicted_7d": 476133,
+      "daily_growth": 21543,
+      "reach_1000_days": -15.181554485290004
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 54.14483333333334,
-      "roi_percent": -89.17103333333333,
+      "potential_revenue": 54.67666666666666,
+      "roi_percent": -89.06466666666667,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -89.2% (losing money)"
+      "reason": "ROI is -89.1% (losing money)"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-08-08T11:10:07.211967",
+  "generated_at": "2025-08-08T11:39:39.894275",
   "summary": {
     "total_reach": 121,
-    "growth_last_24h": 0.10598708029831594,
+    "growth_last_24h": 0.11146413159037721,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
@@ -15,7 +15,7 @@
         "name": "Шум Мотора",
         "subscribers": 121,
         "views": 324869,
-        "growth_rate_hourly": 0.10598708029831594,
+        "growth_rate_hourly": 0.11146413159037721,
         "engagement_rate": 5836.669062163132,
         "predictions": {
           "current": 121,
@@ -50,7 +50,7 @@
       {
         "name": "Шум Мотора (Palych)",
         "username": "@shum_motora",
-        "subscribers": 52,
+        "subscribers": 53,
         "bot_is_admin": true
       }
     ]
@@ -97,8 +97,8 @@
     },
     "Шум Мотора (Palych)": {
       "cost": 100,
-      "potential_revenue": 74.28571428571429,
-      "roi_percent": -25.714285714285705,
+      "potential_revenue": 75.71428571428571,
+      "roi_percent": -24.285714285714292,
       "status": "loss"
     }
   },

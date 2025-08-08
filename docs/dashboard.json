@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-07T23:54:20.909350",
+  "generated_at": "2025-08-08T00:54:39.094250",
   "summary": {
-    "total_reach": 120,
-    "growth_last_24h": 0.278187155714115,
+    "total_reach": 121,
+    "growth_last_24h": 0.2950685661816952,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": null
   },
   "youtube": {
-    "total_subscribers": 120,
-    "total_views": 315169,
+    "total_subscribers": 121,
+    "total_views": 318072,
     "channels": [
       {
         "name": "Шум Мотора",
-        "subscribers": 120,
-        "views": 315169,
-        "growth_rate_hourly": 0.278187155714115,
-        "engagement_rate": 5836.462962962963,
+        "subscribers": 121,
+        "views": 318072,
+        "growth_rate_hourly": 0.2950685661816952,
+        "engagement_rate": 5841.542699724518,
         "predictions": {
-          "current": 120,
+          "current": 121,
           "predicted_7d": 184,
           "daily_growth": 8,
-          "reach_1000_days": 99.90149797058307
+          "reach_1000_days": 100.14807177061903
         },
         "alerts": []
       }
@@ -57,24 +57,24 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 120,
-      "predicted_7d": 55,
+      "current": 121,
+      "predicted_7d": 57,
       "daily_growth": -6,
       "reach_1000_days": null
     },
     "total_views": {
-      "current": 315169,
-      "predicted_7d": 456505,
-      "daily_growth": 21016,
-      "reach_1000_days": -14.948451330226197
+      "current": 318072,
+      "predicted_7d": 458760,
+      "daily_growth": 21090,
+      "reach_1000_days": -15.034032923271326
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 52.528166666666664,
-      "roi_percent": -89.49436666666666,
+      "potential_revenue": 53.012,
+      "roi_percent": -89.3976,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -89.5% (losing money)"
+      "reason": "ROI is -89.4% (losing money)"
     }
   ]
 }

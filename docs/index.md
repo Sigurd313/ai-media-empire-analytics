@@ -1,14 +1,14 @@
 # 🚀 AI Media Empire - Real-time Analytics Dashboard
 
-*Generated: 2025-08-09 22:53:39*
+*Generated: 2025-08-09 23:10:12*
 
 ## 🎯 5-Minute Decision Summary
 
 - **Total Reach**: 137 subscribers
-- **24h Growth**: 0.20% per hour
+- **24h Growth**: 0.17% per hour
 - **Best Performer**: Шум Мотора
 - **Active Alerts**: 0
-- **Days to 1000 subs**: 1524.4
+- **Days to 1000 subs**: 1316.3
 
 ## 🚨 Alerts & Anomalies
 
@@ -18,7 +18,7 @@
 
 | Channel | Subscribers | Growth/hour | Engagement | 7-day Prediction |
 |---------|------------|-------------|------------|------------------|
-| Шум Мотора | 137 | 0.20% | 4789.3% | 196 |
+| Шум Мотора | 137 | 0.17% | 4789.3% | 196 |
 
 ## 💰 ROI Analysis
 

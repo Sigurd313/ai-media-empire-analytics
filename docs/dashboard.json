@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T11:08:27.935161",
+  "generated_at": "2025-08-10T11:36:47.884400",
   "summary": {
     "total_reach": 144,
     "growth_last_24h": 0.29187965305854924,
@@ -38,13 +38,13 @@
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 328,
+        "subscribers": 329,
         "bot_is_admin": true
       },
       {
         "name": "После Титров",
         "username": "@watchx2",
-        "subscribers": 35,
+        "subscribers": 36,
         "bot_is_admin": true
       },
       {
@@ -85,14 +85,14 @@
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 468.57142857142856,
-      "roi_percent": 368.57142857142856,
+      "potential_revenue": 470.0,
+      "roi_percent": 370.0,
       "status": "profitable"
     },
     "После Титров": {
       "cost": 100,
-      "potential_revenue": 50.00000000000001,
-      "roi_percent": -49.99999999999999,
+      "potential_revenue": 51.42857142857143,
+      "roi_percent": -48.57142857142857,
       "status": "loss"
     },
     "Шум Мотора (Palych)": {

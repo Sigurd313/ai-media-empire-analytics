@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-09T23:53:00.490891",
+  "generated_at": "2025-08-10T00:57:50.621457",
   "summary": {
-    "total_reach": 137,
-    "growth_last_24h": 0.16946632657181046,
+    "total_reach": 138,
+    "growth_last_24h": 0.20428193168857867,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 1316.3059475308612
+    "days_to_1000_subs": 1152.482942786564
   },
   "youtube": {
-    "total_subscribers": 137,
-    "total_views": 341189,
+    "total_subscribers": 138,
+    "total_views": 354318,
     "channels": [
       {
         "name": "Шум Мотора",
-        "subscribers": 137,
-        "views": 341189,
-        "growth_rate_hourly": 0.16946632657181046,
-        "engagement_rate": 4789.289724873666,
+        "subscribers": 138,
+        "views": 354318,
+        "growth_rate_hourly": 0.20428193168857867,
+        "engagement_rate": 4937.541806020067,
         "predictions": {
-          "current": 137,
+          "current": 138,
           "predicted_7d": 196,
           "daily_growth": 8,
-          "reach_1000_days": 103.63895139220419
+          "reach_1000_days": 103.57920663029888
         },
         "alerts": []
       }
@@ -57,24 +57,24 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 137,
-      "predicted_7d": 126,
+      "current": 138,
+      "predicted_7d": 127,
       "daily_growth": 0,
-      "reach_1000_days": 1316.3059475308612
+      "reach_1000_days": 1152.482942786564
     },
     "total_views": {
-      "current": 341189,
-      "predicted_7d": 493984,
-      "daily_growth": 20605,
-      "reach_1000_days": -16.509237958251173
+      "current": 354318,
+      "predicted_7d": 495667,
+      "daily_growth": 20618,
+      "reach_1000_days": -17.135955152220397
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 56.86483333333334,
-      "roi_percent": -88.62703333333334,
+      "potential_revenue": 59.053000000000004,
+      "roi_percent": -88.18939999999999,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -88.6% (losing money)"
+      "reason": "ROI is -88.2% (losing money)"
     }
   ]
 }

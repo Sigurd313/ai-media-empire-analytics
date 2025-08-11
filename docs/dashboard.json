@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-11T15:56:40.721196",
+  "generated_at": "2025-08-11T16:13:12.673715",
   "summary": {
-    "total_reach": 144,
-    "growth_last_24h": -0.029977317112061537,
+    "total_reach": 146,
+    "growth_last_24h": 0.02988159891889449,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 283.20478262618315
+    "days_to_1000_subs": 279.4157907085728
   },
   "youtube": {
-    "total_subscribers": 144,
+    "total_subscribers": 146,
     "total_views": 376809,
     "channels": [
       {
         "name": "Шум Мотора",
-        "subscribers": 144,
+        "subscribers": 146,
         "views": 376809,
-        "growth_rate_hourly": -0.029977317112061537,
-        "engagement_rate": 4511.602011494253,
+        "growth_rate_hourly": 0.02988159891889449,
+        "engagement_rate": 4449.799244213509,
         "predictions": {
-          "current": 144,
+          "current": 146,
           "predicted_7d": 206,
           "daily_growth": 8,
-          "reach_1000_days": 106.29268736076834
+          "reach_1000_days": 106.29459810429253
         },
         "alerts": []
       }
@@ -57,16 +57,16 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 144,
-      "predicted_7d": 157,
+      "current": 146,
+      "predicted_7d": 158,
       "daily_growth": 3,
-      "reach_1000_days": 283.20478262618315
+      "reach_1000_days": 279.4157907085728
     },
     "total_views": {
       "current": 376809,
-      "predicted_7d": 522622,
-      "daily_growth": 20158,
-      "reach_1000_days": -18.642838504336567
+      "predicted_7d": 523173,
+      "daily_growth": 20134,
+      "reach_1000_days": -18.665256477194333
     }
   },
   "alerts": [],
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Increase posting frequency or improve content quality",
-      "reason": "Growth rate only -0.03% per hour"
+      "reason": "Growth rate only 0.03% per hour"
     },
     {
       "priority": "HIGH",

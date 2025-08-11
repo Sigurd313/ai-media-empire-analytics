@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-11T02:53:18.827573",
+  "generated_at": "2025-08-11T02:56:56.188220",
   "summary": {
     "total_reach": 145,
-    "growth_last_24h": 0.19713911657885408,
+    "growth_last_24h": 0.18047518125638784,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 339.8530235774794
+    "days_to_1000_subs": 332.7255231738416
   },
   "youtube": {
     "total_subscribers": 145,
-    "total_views": 363563,
+    "total_views": 376591,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 145,
-        "views": 363563,
-        "growth_rate_hourly": 0.19713911657885408,
-        "engagement_rate": 4558.7836990595615,
+        "views": 376591,
+        "growth_rate_hourly": 0.18047518125638784,
+        "engagement_rate": 4722.144200626959,
         "predictions": {
           "current": 145,
           "predicted_7d": 205,
           "daily_growth": 8,
-          "reach_1000_days": 102.63896819414354
+          "reach_1000_days": 102.79806217151902
         },
         "alerts": []
       }
@@ -60,21 +60,21 @@
       "current": 145,
       "predicted_7d": 150,
       "daily_growth": 2,
-      "reach_1000_days": 339.8530235774794
+      "reach_1000_days": 332.7255231738416
     },
     "total_views": {
-      "current": 363563,
-      "predicted_7d": 511256,
-      "daily_growth": 20211,
-      "reach_1000_days": -17.9388453084127
+      "current": 376591,
+      "predicted_7d": 513188,
+      "daily_growth": 20229,
+      "reach_1000_days": -18.56615790488772
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 60.593833333333336,
-      "roi_percent": -87.88123333333333,
+      "potential_revenue": 62.765166666666666,
+      "roi_percent": -87.44696666666665,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -87.9% (losing money)"
+      "reason": "ROI is -87.4% (losing money)"
     }
   ]
 }

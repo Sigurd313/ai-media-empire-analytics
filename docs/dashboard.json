@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-13T02:30:30.846951",
+  "generated_at": "2025-08-13T02:43:22.871129",
   "summary": {
     "total_reach": 154,
-    "growth_last_24h": -0.05785341571923854,
+    "growth_last_24h": -0.02804905382453219,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 202.8523495492841
+    "days_to_1000_subs": 202.21545301414383
   },
   "youtube": {
     "total_subscribers": 154,
-    "total_views": 421872,
+    "total_views": 426750,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 154,
-        "views": 421872,
-        "growth_rate_hourly": -0.05785341571923854,
-        "engagement_rate": 4490.866510538642,
+        "views": 426750,
+        "growth_rate_hourly": -0.02804905382453219,
+        "engagement_rate": 4542.793272301469,
         "predictions": {
           "current": 154,
           "predicted_7d": 215,
           "daily_growth": 7,
-          "reach_1000_days": 107.60334151545501
+          "reach_1000_days": 107.8840027879629
         },
         "alerts": []
       }
@@ -58,23 +58,23 @@
   "predictions": {
     "total_subscribers": {
       "current": 154,
-      "predicted_7d": 177,
+      "predicted_7d": 178,
       "daily_growth": 4,
-      "reach_1000_days": 202.8523495492841
+      "reach_1000_days": 202.21545301414383
     },
     "total_views": {
-      "current": 421872,
-      "predicted_7d": 561111,
-      "daily_growth": 20913,
-      "reach_1000_days": -20.124488843398282
+      "current": 426750,
+      "predicted_7d": 563101,
+      "daily_growth": 20939,
+      "reach_1000_days": -20.332016091806075
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 70.312,
-      "roi_percent": -85.9376,
+      "potential_revenue": 71.125,
+      "roi_percent": -85.775,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,13 +107,13 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Increase posting frequency or improve content quality",
-      "reason": "Growth rate only -0.06% per hour"
+      "reason": "Growth rate only -0.03% per hour"
     },
     {
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -85.9% (losing money)"
+      "reason": "ROI is -85.8% (losing money)"
     }
   ]
 }

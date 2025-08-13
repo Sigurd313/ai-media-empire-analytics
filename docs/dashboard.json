@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-08-13T08:49:18.377727",
+  "generated_at": "2025-08-13T10:11:32.537464",
   "summary": {
-    "total_reach": 154,
-    "growth_last_24h": 0.028383758441955308,
+    "total_reach": 155,
+    "growth_last_24h": 0.056754784201905405,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 199.21844692213645
+    "days_to_1000_subs": 198.03049911483248
   },
   "youtube": {
-    "total_subscribers": 154,
+    "total_subscribers": 155,
     "total_views": 426750,
     "channels": [
       {
         "name": "Шум Мотора",
-        "subscribers": 154,
+        "subscribers": 155,
         "views": 426750,
-        "growth_rate_hourly": 0.028383758441955308,
-        "engagement_rate": 4469.5224130708,
+        "growth_rate_hourly": 0.056754784201905405,
+        "engagement_rate": 4370.1996927803375,
         "predictions": {
-          "current": 154,
+          "current": 155,
           "predicted_7d": 216,
           "daily_growth": 7,
-          "reach_1000_days": 109.66069665861926
+          "reach_1000_days": 110.08957545708799
         },
         "alerts": []
       }
@@ -57,16 +57,16 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 154,
-      "predicted_7d": 180,
+      "current": 155,
+      "predicted_7d": 181,
       "daily_growth": 4,
-      "reach_1000_days": 199.21844692213645
+      "reach_1000_days": 198.03049911483248
     },
     "total_views": {
       "current": 426750,
-      "predicted_7d": 570187,
-      "daily_growth": 21041,
-      "reach_1000_days": -20.23384495558338
+      "predicted_7d": 572075,
+      "daily_growth": 21054,
+      "reach_1000_days": -20.221249072298427
     }
   },
   "alerts": [],
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Increase posting frequency or improve content quality",
-      "reason": "Growth rate only 0.03% per hour"
+      "reason": "Growth rate only 0.06% per hour"
     },
     {
       "priority": "HIGH",

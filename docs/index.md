@@ -1,6 +1,6 @@
 # 🚀 AI Media Empire - Real-time Analytics Dashboard
 
-*Generated: 2025-08-13 14:56:10*
+*Generated: 2025-08-13 15:09:20*
 
 ## 🎯 5-Minute Decision Summary
 
@@ -8,7 +8,7 @@
 - **24h Growth**: 0.00% per hour
 - **Best Performer**: Шум Мотора
 - **Active Alerts**: 0
-- **Days to 1000 subs**: 196.5
+- **Days to 1000 subs**: 196.2
 
 ## 🚨 Alerts & Anomalies
 
@@ -18,13 +18,13 @@
 
 | Channel | Subscribers | Growth/hour | Engagement | 7-day Prediction |
 |---------|------------|-------------|------------|------------------|
-| Шум Мотора | 155 | 0.00% | 4370.2% | 215 |
+| Шум Мотора | 155 | 0.00% | 4328.7% | 215 |
 
 ## 💰 ROI Analysis
 
 | Channel | Cost | Potential Revenue | ROI | Status |
 |---------|------|------------------|-----|--------|
-| Шум Мотора | $500 | $71 | -85.8% | ❌ loss |
+| Шум Мотора | $500 | $72 | -85.7% | ❌ loss |
 | AI без правил | $100 | $380 | 280.0% | ✅ profitable |
 | Исследователь Счастья | $100 | $470 | 370.0% | ✅ profitable |
 | После Титров | $100 | $51 | -48.6% | ❌ loss |
@@ -36,5 +36,5 @@
    - *Reason: Growth rate only 0.00% per hour*
 
 🟠 **HIGH** - Шум Мотора: Reduce costs or pivot strategy
-   - *Reason: ROI is -85.8% (losing money)*
+   - *Reason: ROI is -85.7% (losing money)*
 

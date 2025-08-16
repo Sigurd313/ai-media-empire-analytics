@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-16T15:08:57.297606",
+  "generated_at": "2025-08-16T15:37:51.656232",
   "summary": {
     "total_reach": 155,
     "growth_last_24h": 0.0,
@@ -32,13 +32,13 @@
       {
         "name": "AI без правил",
         "username": "@ai_bez_pravil",
-        "subscribers": 266,
+        "subscribers": 267,
         "bot_is_admin": true
       },
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 331,
+        "subscribers": 332,
         "bot_is_admin": true
       },
       {
@@ -79,14 +79,14 @@
     },
     "AI без правил": {
       "cost": 100,
-      "potential_revenue": 380.0,
-      "roi_percent": 280.0,
+      "potential_revenue": 381.42857142857144,
+      "roi_percent": 281.42857142857144,
       "status": "profitable"
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 472.85714285714283,
-      "roi_percent": 372.85714285714283,
+      "potential_revenue": 474.2857142857143,
+      "roi_percent": 374.2857142857143,
       "status": "profitable"
     },
     "После Титров": {

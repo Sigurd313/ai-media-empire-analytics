@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-08T10:11:32.772519",
+  "generated_at": "2025-09-08T10:42:29.231564",
   "summary": {
     "total_reach": 157,
     "growth_last_24h": 0.02778139179616828,
@@ -32,7 +32,7 @@
       {
         "name": "AI без правил",
         "username": "@ai_bez_pravil",
-        "subscribers": 270,
+        "subscribers": 271,
         "bot_is_admin": true
       },
       {
@@ -79,8 +79,8 @@
     },
     "AI без правил": {
       "cost": 100,
-      "potential_revenue": 385.7142857142857,
-      "roi_percent": 285.7142857142857,
+      "potential_revenue": 387.14285714285717,
+      "roi_percent": 287.14285714285717,
       "status": "profitable"
     },
     "Исследователь Счастья": {

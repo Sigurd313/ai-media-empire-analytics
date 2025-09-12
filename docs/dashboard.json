@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-12T14:09:54.413007",
+  "generated_at": "2025-09-12T14:40:13.645286",
   "summary": {
     "total_reach": 157,
     "growth_last_24h": 0.0,
@@ -29,18 +29,6 @@
   },
   "telegram": {
     "channels": [
-      {
-        "name": "AI без правил",
-        "username": "@ai_bez_pravil",
-        "subscribers": 272,
-        "bot_is_admin": true
-      },
-      {
-        "name": "Исследователь Счастья",
-        "username": "@agecrisis",
-        "subscribers": 326,
-        "bot_is_admin": true
-      },
       {
         "name": "После Титров",
         "username": "@watchx2",
@@ -76,18 +64,6 @@
       "potential_revenue": 72.14133333333334,
       "roi_percent": -85.57173333333333,
       "status": "loss"
-    },
-    "AI без правил": {
-      "cost": 100,
-      "potential_revenue": 388.5714285714286,
-      "roi_percent": 288.5714285714286,
-      "status": "profitable"
-    },
-    "Исследователь Счастья": {
-      "cost": 100,
-      "potential_revenue": 465.7142857142858,
-      "roi_percent": 365.7142857142858,
-      "status": "profitable"
     },
     "После Титров": {
       "cost": 100,

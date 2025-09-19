@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-19T20:10:32.700407",
+  "generated_at": "2025-09-19T20:37:38.826778",
   "summary": {
     "total_reach": 156,
     "growth_last_24h": 0.0,
@@ -50,7 +50,7 @@
       {
         "name": "Шум Мотора (Palych)",
         "username": "@shum_motora",
-        "subscribers": 54,
+        "subscribers": 53,
         "bot_is_admin": true
       }
     ]
@@ -97,8 +97,8 @@
     },
     "Шум Мотора (Palych)": {
       "cost": 100,
-      "potential_revenue": 77.14285714285714,
-      "roi_percent": -22.85714285714286,
+      "potential_revenue": 75.71428571428571,
+      "roi_percent": -24.285714285714292,
       "status": "loss"
     }
   },

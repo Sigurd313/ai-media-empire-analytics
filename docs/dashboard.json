@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-09-26T08:55:47.914243",
+  "generated_at": "2025-09-26T10:10:43.670522",
   "summary": {
     "total_reach": 156,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 1749.4219474441463
+    "days_to_1000_subs": 1754.8295424003493
   },
   "youtube": {
     "total_subscribers": 156,
@@ -21,7 +21,7 @@
           "current": 156,
           "predicted_7d": 170,
           "daily_growth": 0,
-          "reach_1000_days": 1419.3400281064798
+          "reach_1000_days": 1423.7801586371477
         },
         "alerts": []
       }
@@ -32,7 +32,7 @@
       {
         "name": "AI без правил",
         "username": "@ai_bez_pravil",
-        "subscribers": 285,
+        "subscribers": 284,
         "bot_is_admin": true
       },
       {
@@ -60,13 +60,13 @@
       "current": 156,
       "predicted_7d": 167,
       "daily_growth": 0,
-      "reach_1000_days": 1749.4219474441463
+      "reach_1000_days": 1754.8295424003493
     },
     "total_views": {
       "current": 433332,
-      "predicted_7d": 481553,
-      "daily_growth": 2065,
-      "reach_1000_days": -209.32850068648673
+      "predicted_7d": 481458,
+      "daily_growth": 2059,
+      "reach_1000_days": -209.94718240164997
     }
   },
   "alerts": [],
@@ -79,8 +79,8 @@
     },
     "AI без правил": {
       "cost": 100,
-      "potential_revenue": 407.14285714285717,
-      "roi_percent": 307.14285714285717,
+      "potential_revenue": 405.7142857142857,
+      "roi_percent": 305.7142857142857,
       "status": "profitable"
     },
     "Исследователь Счастья": {

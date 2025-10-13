@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-10-13T17:53:18.096703",
+  "generated_at": "2025-10-13T18:14:18.209354",
   "summary": {
     "total_reach": 154,
-    "growth_last_24h": -0.028121657423965447,
+    "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 3080.8159438487023
+    "days_to_1000_subs": 3085.511070190822
   },
   "youtube": {
     "total_subscribers": 154,
-    "total_views": 433881,
+    "total_views": 433875,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 154,
-        "views": 433881,
-        "growth_rate_hourly": -0.028121657423965447,
-        "engagement_rate": 3807.309582309582,
+        "views": 433875,
+        "growth_rate_hourly": 0.0,
+        "engagement_rate": 3807.256932256932,
         "predictions": {
           "current": 154,
           "predicted_7d": 165,
           "daily_growth": 0,
-          "reach_1000_days": 2501.977076291518
+          "reach_1000_days": 2505.657002347722
         },
         "alerts": []
       }
@@ -60,21 +60,21 @@
       "current": 154,
       "predicted_7d": 164,
       "daily_growth": 0,
-      "reach_1000_days": 3080.8159438487023
+      "reach_1000_days": 3085.511070190822
     },
     "total_views": {
-      "current": 433881,
-      "predicted_7d": 469443,
-      "daily_growth": 1233,
-      "reach_1000_days": -351.0153654084255
+      "current": 433875,
+      "predicted_7d": 469423,
+      "daily_growth": 1231,
+      "reach_1000_days": -351.4061696231106
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 72.3135,
-      "roi_percent": -85.5373,
+      "potential_revenue": 72.3125,
+      "roi_percent": -85.5375,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Increase posting frequency or improve content quality",
-      "reason": "Growth rate only -0.03% per hour"
+      "reason": "Growth rate only 0.00% per hour"
     },
     {
       "priority": "HIGH",

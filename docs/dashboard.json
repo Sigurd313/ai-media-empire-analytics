@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T20:39:23.781512",
+  "generated_at": "2025-10-23T20:53:04.616850",
   "summary": {
     "total_reach": 154,
     "growth_last_24h": 0.0,
@@ -21,7 +21,7 @@
           "current": 154,
           "predicted_7d": 163,
           "daily_growth": 0,
-          "reach_1000_days": 3440.0094349024566
+          "reach_1000_days": 3440.009434902441
         },
         "alerts": []
       }

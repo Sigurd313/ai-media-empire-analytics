@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-27T04:20:43.037230",
+  "generated_at": "2025-10-27T04:48:10.148948",
   "summary": {
     "total_reach": 154,
     "growth_last_24h": 0.0,
@@ -38,7 +38,7 @@
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 324,
+        "subscribers": 323,
         "bot_is_admin": true
       },
       {
@@ -85,8 +85,8 @@
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 462.8571428571429,
-      "roi_percent": 362.8571428571429,
+      "potential_revenue": 461.42857142857144,
+      "roi_percent": 361.42857142857144,
       "status": "profitable"
     },
     "После Титров": {

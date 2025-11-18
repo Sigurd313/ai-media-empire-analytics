@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-18T17:40:11.636334",
+  "generated_at": "2025-11-18T17:40:11.636648",
   "channels": [
     {
       "timestamp": "2025-11-18T17:40:07.373782",
@@ -63,12 +63,5 @@
       "bot_is_admin": true,
       "bot_status": "administrator"
     }
-  ],
-  "bot_api_version": true,
-  "limitations": [
-    "Cannot get post views/reactions",
-    "Member count may not work for all channels",
-    "Cannot read message history",
-    "Need to be admin for private channels"
   ]
 }

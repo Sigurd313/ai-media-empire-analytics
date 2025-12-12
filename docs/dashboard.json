@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-12-12T14:11:58.651294",
+  "generated_at": "2025-12-12T14:39:42.980385",
   "summary": {
     "total_reach": 153,
-    "growth_last_24h": -0.027108013170666006,
+    "growth_last_24h": -0.028257488542078484,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
     "days_to_1000_subs": 13222.3624782085
@@ -15,7 +15,7 @@
         "name": "Шум Мотора",
         "subscribers": 153,
         "views": 435099,
-        "growth_rate_hourly": -0.027108013170666006,
+        "growth_rate_hourly": -0.028257488542078484,
         "engagement_rate": 3842.9517753047166,
         "predictions": {
           "current": 153,

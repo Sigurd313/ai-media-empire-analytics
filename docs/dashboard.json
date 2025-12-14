@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-14T23:09:54.719662",
+  "generated_at": "2025-12-14T23:37:12.909395",
   "summary": {
     "total_reach": 153,
     "growth_last_24h": 0.0,
@@ -44,7 +44,7 @@
       {
         "name": "После Титров",
         "username": "@watchx2",
-        "subscribers": 37,
+        "subscribers": 36,
         "bot_is_admin": true
       },
       {
@@ -91,8 +91,8 @@
     },
     "После Титров": {
       "cost": 100,
-      "potential_revenue": 52.857142857142854,
-      "roi_percent": -47.142857142857146,
+      "potential_revenue": 51.42857142857143,
+      "roi_percent": -48.57142857142857,
       "status": "loss"
     },
     "Шум Мотора (Palych)": {

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2025-12-14T08:55:47.822399",
+  "generated_at": "2025-12-14T10:10:40.691664",
   "summary": {
     "total_reach": 153,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 13777.345977809606
+    "days_to_1000_subs": 13805.511052410622
   },
   "youtube": {
     "total_subscribers": 153,
@@ -21,7 +21,7 @@
           "current": 153,
           "predicted_7d": 158,
           "daily_growth": 0,
-          "reach_1000_days": 10656.05402115271
+          "reach_1000_days": 10676.101873130685
         },
         "alerts": []
       }
@@ -38,7 +38,7 @@
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 323,
+        "subscribers": 322,
         "bot_is_admin": true
       },
       {
@@ -60,13 +60,13 @@
       "current": 153,
       "predicted_7d": 157,
       "daily_growth": 0,
-      "reach_1000_days": 13777.345977809606
+      "reach_1000_days": 13805.511052410622
     },
     "total_views": {
       "current": 435141,
-      "predicted_7d": 453736,
-      "daily_growth": 389,
-      "reach_1000_days": -1114.746771296741
+      "predicted_7d": 453723,
+      "daily_growth": 388,
+      "reach_1000_days": -1116.0956540017899
     }
   },
   "alerts": [],
@@ -85,8 +85,8 @@
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 461.42857142857144,
-      "roi_percent": 361.42857142857144,
+      "potential_revenue": 460.00000000000006,
+      "roi_percent": 360.00000000000006,
       "status": "profitable"
     },
     "После Титров": {

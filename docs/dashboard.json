@@ -1,28 +1,23 @@
 {
-  "generated_at": "2025-12-19T03:52:48.393328",
+  "generated_at": "2025-12-19T04:25:54.513621",
   "summary": {
-    "total_reach": 153,
-    "growth_last_24h": 0.0,
-    "best_channel": "Шум Мотора",
+    "total_reach": 22100,
+    "growth_last_24h": 618.6505991145818,
+    "best_channel": "Motsov Воронеж",
     "alerts_count": 0,
-    "days_to_1000_subs": 2420.408154653626
+    "days_to_1000_subs": -32346.49222129887
   },
   "youtube": {
-    "total_subscribers": 153,
-    "total_views": 435260,
+    "total_subscribers": 22100,
+    "total_views": 10818801,
     "channels": [
       {
-        "name": "Шум Мотора",
-        "subscribers": 153,
-        "views": 435260,
-        "growth_rate_hourly": 0.0,
-        "engagement_rate": 3844.3737855502563,
-        "predictions": {
-          "current": 153,
-          "predicted_7d": 158,
-          "daily_growth": 0,
-          "reach_1000_days": 11784.358746346457
-        },
+        "name": "Motsov Воронеж",
+        "subscribers": 22100,
+        "views": 10818801,
+        "growth_rate_hourly": 0,
+        "engagement_rate": 114.3781557914323,
+        "predictions": null,
         "alerts": []
       }
     ]
@@ -57,25 +52,25 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 153,
-      "predicted_7d": 186,
+      "current": 22100,
+      "predicted_7d": 216,
       "daily_growth": 0,
-      "reach_1000_days": 2420.408154653626
+      "reach_1000_days": -32346.49222129887
     },
     "total_views": {
-      "current": 435260,
-      "predicted_7d": 466991,
-      "daily_growth": 504,
-      "reach_1000_days": -861.5268842223306
+      "current": 10818801,
+      "predicted_7d": 481103,
+      "daily_growth": 646,
+      "reach_1000_days": -16721.751225122174
     }
   },
   "alerts": [],
   "roi": {
-    "Шум Мотора": {
+    "Motsov Воронеж": {
       "cost": 500,
-      "potential_revenue": 72.54333333333334,
-      "roi_percent": -85.49133333333333,
-      "status": "loss"
+      "potential_revenue": 1803.1335000000001,
+      "roi_percent": 260.6267,
+      "status": "profitable"
     },
     "AI без правил": {
       "cost": 100,
@@ -105,15 +100,9 @@
   "recommendations": [
     {
       "priority": "HIGH",
-      "channel": "Шум Мотора",
+      "channel": "Motsov Воронеж",
       "action": "Increase posting frequency or improve content quality",
       "reason": "Growth rate only 0.00% per hour"
-    },
-    {
-      "priority": "HIGH",
-      "channel": "Шум Мотора",
-      "action": "Reduce costs or pivot strategy",
-      "reason": "ROI is -85.5% (losing money)"
     }
   ]
 }

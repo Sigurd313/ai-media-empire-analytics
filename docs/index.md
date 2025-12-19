@@ -1,14 +1,14 @@
 # 🚀 AI Media Empire - Real-time Analytics Dashboard
 
-*Generated: 2025-12-19 03:52:48*
+*Generated: 2025-12-19 04:25:54*
 
 ## 🎯 5-Minute Decision Summary
 
-- **Total Reach**: 153 subscribers
-- **24h Growth**: 0.00% per hour
-- **Best Performer**: Шум Мотора
+- **Total Reach**: 22,100 subscribers
+- **24h Growth**: 618.65% per hour
+- **Best Performer**: Motsov Воронеж
 - **Active Alerts**: 0
-- **Days to 1000 subs**: 2420.4
+- **Days to 1000 subs**: -32346.5
 
 ## 🚨 Alerts & Anomalies
 
@@ -18,13 +18,13 @@
 
 | Channel | Subscribers | Growth/hour | Engagement | 7-day Prediction |
 |---------|------------|-------------|------------|------------------|
-| Шум Мотора | 153 | 0.00% | 3844.4% | 158 |
+| Motsov Воронеж | 22,100 | 0.00% | 114.4% | N/A |
 
 ## 💰 ROI Analysis
 
 | Channel | Cost | Potential Revenue | ROI | Status |
 |---------|------|------------------|-----|--------|
-| Шум Мотора | $500 | $73 | -85.5% | ❌ loss |
+| Motsov Воронеж | $500 | $1803 | 260.6% | ✅ profitable |
 | AI без правил | $100 | $409 | 308.6% | ✅ profitable |
 | Исследователь Счастья | $100 | $461 | 361.4% | ✅ profitable |
 | После Титров | $100 | $51 | -48.6% | ❌ loss |
@@ -32,9 +32,6 @@
 
 ## 📋 Recommendations
 
-🟠 **HIGH** - Шум Мотора: Increase posting frequency or improve content quality
+🟠 **HIGH** - Motsov Воронеж: Increase posting frequency or improve content quality
    - *Reason: Growth rate only 0.00% per hour*
-
-🟠 **HIGH** - Шум Мотора: Reduce costs or pivot strategy
-   - *Reason: ROI is -85.5% (losing money)*
 

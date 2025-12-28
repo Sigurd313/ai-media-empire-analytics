@@ -1,27 +1,27 @@
 {
-  "generated_at": "2025-12-28T08:57:06.517368",
+  "generated_at": "2025-12-28T10:10:57.114194",
   "summary": {
     "total_reach": 154,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 1670.5121112373097
+    "days_to_1000_subs": 1674.4710340993347
   },
   "youtube": {
     "total_subscribers": 154,
-    "total_views": 435420,
+    "total_views": 435427,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 154,
-        "views": 435420,
+        "views": 435427,
         "growth_rate_hourly": 0.0,
-        "engagement_rate": 3820.8143208143206,
+        "engagement_rate": 3820.8757458757455,
         "predictions": {
           "current": 154,
           "predicted_7d": 157,
           "daily_growth": 0,
-          "reach_1000_days": 13664.180779654793
+          "reach_1000_days": 13682.36738885122
         },
         "alerts": []
       }
@@ -38,7 +38,7 @@
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 324,
+        "subscribers": 325,
         "bot_is_admin": true
       },
       {
@@ -60,21 +60,21 @@
       "current": 154,
       "predicted_7d": 206,
       "daily_growth": 0,
-      "reach_1000_days": 1670.5121112373097
+      "reach_1000_days": 1674.4710340993347
     },
     "total_views": {
-      "current": 435420,
-      "predicted_7d": 475775,
-      "daily_growth": 541,
-      "reach_1000_days": -802.74528575262
+      "current": 435427,
+      "predicted_7d": 475726,
+      "daily_growth": 540,
+      "reach_1000_days": -804.0764431805534
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 72.57000000000001,
-      "roi_percent": -85.486,
+      "potential_revenue": 72.57116666666667,
+      "roi_percent": -85.48576666666666,
       "status": "loss"
     },
     "AI без правил": {
@@ -85,8 +85,8 @@
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 462.8571428571429,
-      "roi_percent": 362.8571428571429,
+      "potential_revenue": 464.2857142857143,
+      "roi_percent": 364.2857142857143,
       "status": "profitable"
     },
     "После Титров": {

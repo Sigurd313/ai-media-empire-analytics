@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-30T21:10:32.014860",
+  "generated_at": "2025-12-30T21:48:26.221922",
   "summary": {
     "total_reach": 154,
     "growth_last_24h": 0.0,
@@ -28,32 +28,7 @@
     ]
   },
   "telegram": {
-    "channels": [
-      {
-        "name": "AI без правил",
-        "username": "@ai_bez_pravil",
-        "subscribers": 286,
-        "bot_is_admin": true
-      },
-      {
-        "name": "Исследователь Счастья",
-        "username": "@agecrisis",
-        "subscribers": 326,
-        "bot_is_admin": true
-      },
-      {
-        "name": "После Титров",
-        "username": "@watchx2",
-        "subscribers": 35,
-        "bot_is_admin": true
-      },
-      {
-        "name": "Шум Мотора (Palych)",
-        "username": "@shum_motora",
-        "subscribers": 55,
-        "bot_is_admin": true
-      }
-    ]
+    "channels": []
   },
   "predictions": {
     "total_subscribers": {
@@ -75,30 +50,6 @@
       "cost": 500,
       "potential_revenue": 72.57683333333333,
       "roi_percent": -85.48463333333333,
-      "status": "loss"
-    },
-    "AI без правил": {
-      "cost": 100,
-      "potential_revenue": 408.57142857142856,
-      "roi_percent": 308.57142857142856,
-      "status": "profitable"
-    },
-    "Исследователь Счастья": {
-      "cost": 100,
-      "potential_revenue": 465.7142857142858,
-      "roi_percent": 365.7142857142858,
-      "status": "profitable"
-    },
-    "После Титров": {
-      "cost": 100,
-      "potential_revenue": 50.00000000000001,
-      "roi_percent": -49.99999999999999,
-      "status": "loss"
-    },
-    "Шум Мотора (Palych)": {
-      "cost": 100,
-      "potential_revenue": 78.57142857142857,
-      "roi_percent": -21.42857142857143,
       "status": "loss"
     }
   },

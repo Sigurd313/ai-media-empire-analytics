@@ -1,6 +1,6 @@
 # 🚀 AI Media Empire - Real-time Analytics Dashboard
 
-*Generated: 2025-12-30 22:10:37*
+*Generated: 2025-12-30 22:42:51*
 
 ## 🎯 5-Minute Decision Summary
 
@@ -25,6 +25,10 @@
 | Channel | Cost | Potential Revenue | ROI | Status |
 |---------|------|------------------|-----|--------|
 | Шум Мотора | $500 | $73 | -85.5% | ❌ loss |
+| AI без правил | $100 | $409 | 308.6% | ✅ profitable |
+| Исследователь Счастья | $100 | $466 | 365.7% | ✅ profitable |
+| После Титров | $100 | $50 | -50.0% | ❌ loss |
+| Шум Мотора (Palych) | $100 | $77 | -22.9% | ❌ loss |
 
 ## 📋 Recommendations
 

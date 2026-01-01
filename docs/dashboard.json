@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-01-01T18:59:13.666488",
+  "generated_at": "2026-01-01T19:09:48.523550",
   "summary": {
-    "total_reach": 155,
-    "growth_last_24h": 0.028089887937742853,
+    "total_reach": 154,
+    "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 1876.6358920944813
+    "days_to_1000_subs": 1881.0530570235844
   },
   "youtube": {
-    "total_subscribers": 155,
-    "total_views": 435482,
+    "total_subscribers": 154,
+    "total_views": 435481,
     "channels": [
       {
         "name": "Шум Мотора",
-        "subscribers": 155,
-        "views": 435482,
-        "growth_rate_hourly": 0.028089887937742853,
-        "engagement_rate": 3796.704446381865,
+        "subscribers": 154,
+        "views": 435481,
+        "growth_rate_hourly": 0.0,
+        "engagement_rate": 3821.3495963495966,
         "predictions": {
-          "current": 155,
+          "current": 154,
           "predicted_7d": 157,
           "daily_growth": 0,
-          "reach_1000_days": 14563.841402334881
+          "reach_1000_days": 14590.493530181606
         },
         "alerts": []
       }
@@ -57,24 +57,24 @@
   },
   "predictions": {
     "total_subscribers": {
-      "current": 155,
+      "current": 154,
       "predicted_7d": 203,
       "daily_growth": 0,
-      "reach_1000_days": 1876.6358920944813
+      "reach_1000_days": 1881.0530570235844
     },
     "total_views": {
-      "current": 435482,
-      "predicted_7d": 473608,
-      "daily_growth": 499,
-      "reach_1000_days": -870.431944601073
+      "current": 435481,
+      "predicted_7d": 473584,
+      "daily_growth": 498,
+      "reach_1000_days": -871.1224660748874
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 72.58033333333333,
-      "roi_percent": -85.48393333333334,
+      "potential_revenue": 72.58016666666667,
+      "roi_percent": -85.48396666666666,
       "status": "loss"
     },
     "AI без правил": {
@@ -107,7 +107,7 @@
       "priority": "HIGH",
       "channel": "Шум Мотора",
       "action": "Increase posting frequency or improve content quality",
-      "reason": "Growth rate only 0.03% per hour"
+      "reason": "Growth rate only 0.00% per hour"
     },
     {
       "priority": "HIGH",

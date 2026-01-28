@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-01-28T15:04:52.593739",
+  "generated_at": "2026-01-28T15:21:22.928974",
   "summary": {
     "total_reach": 155,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 3683.1529817132173
+    "days_to_1000_subs": 3687.1312601716577
   },
   "youtube": {
     "total_subscribers": 155,
@@ -21,7 +21,7 @@
           "current": 155,
           "predicted_7d": 157,
           "daily_growth": 0,
-          "reach_1000_days": 19738.92371918267
+          "reach_1000_days": 19746.379623465786
         },
         "alerts": []
       }
@@ -60,13 +60,13 @@
       "current": 155,
       "predicted_7d": 186,
       "daily_growth": 0,
-      "reach_1000_days": 3683.1529817132173
+      "reach_1000_days": 3687.1312601716577
     },
     "total_views": {
       "current": 435951,
-      "predicted_7d": 463904,
+      "predicted_7d": 463891,
       "daily_growth": 322,
-      "reach_1000_days": -1349.5605101291299
+      "reach_1000_days": -1350.459444007456
     }
   },
   "alerts": [],

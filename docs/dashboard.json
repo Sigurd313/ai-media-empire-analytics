@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-01-30T19:21:12.699760",
+  "generated_at": "2026-01-30T19:24:35.924740",
   "summary": {
     "total_reach": 155,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 3870.6971321974625
+    "days_to_1000_subs": 3874.876254212874
   },
   "youtube": {
     "total_subscribers": 155,
-    "total_views": 435973,
+    "total_views": 435974,
     "channels": [
       {
         "name": "Шум Мотора",
         "subscribers": 155,
-        "views": 435973,
+        "views": 435974,
         "growth_rate_hourly": 0.0,
-        "engagement_rate": 3800.9851787271136,
+        "engagement_rate": 3800.9938971229294,
         "predictions": {
           "current": 155,
           "predicted_7d": 157,
           "daily_growth": 0,
-          "reach_1000_days": 20084.726430506224
+          "reach_1000_days": 20092.298581324216
         },
         "alerts": []
       }
@@ -60,21 +60,21 @@
       "current": 155,
       "predicted_7d": 185,
       "daily_growth": 0,
-      "reach_1000_days": 3870.6971321974625
+      "reach_1000_days": 3874.876254212874
     },
     "total_views": {
-      "current": 435973,
-      "predicted_7d": 463370,
+      "current": 435974,
+      "predicted_7d": 463356,
       "daily_growth": 312,
-      "reach_1000_days": -1391.4206590298431
+      "reach_1000_days": -1392.341394521175
     }
   },
   "alerts": [],
   "roi": {
     "Шум Мотора": {
       "cost": 500,
-      "potential_revenue": 72.66216666666668,
-      "roi_percent": -85.46756666666666,
+      "potential_revenue": 72.66233333333334,
+      "roi_percent": -85.46753333333334,
       "status": "loss"
     },
     "AI без правил": {

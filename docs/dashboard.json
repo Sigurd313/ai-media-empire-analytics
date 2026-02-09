@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-09T08:37:22.677828",
+  "generated_at": "2026-02-09T10:33:52.778678",
   "summary": {
     "total_reach": 155,
     "growth_last_24h": 0.0,
     "best_channel": "Шум Мотора",
     "alerts_count": 0,
-    "days_to_1000_subs": 4780.448758501392
+    "days_to_1000_subs": 4785.6454233746
   },
   "youtube": {
     "total_subscribers": 155,
@@ -21,7 +21,7 @@
           "current": 155,
           "predicted_7d": 157,
           "daily_growth": 0,
-          "reach_1000_days": 21617.051690061417
+          "reach_1000_days": 21625.193449162805
         },
         "alerts": []
       }
@@ -32,13 +32,13 @@
       {
         "name": "AI без правил",
         "username": "@ai_bez_pravil",
-        "subscribers": 282,
+        "subscribers": 283,
         "bot_is_admin": true
       },
       {
         "name": "Исследователь Счастья",
         "username": "@agecrisis",
-        "subscribers": 323,
+        "subscribers": 324,
         "bot_is_admin": true
       },
       {
@@ -60,13 +60,13 @@
       "current": 155,
       "predicted_7d": 181,
       "daily_growth": 0,
-      "reach_1000_days": 4780.448758501392
+      "reach_1000_days": 4785.6454233746
     },
     "total_views": {
       "current": 436129,
-      "predicted_7d": 461356,
+      "predicted_7d": 461346,
       "daily_growth": 275,
-      "reach_1000_days": -1579.1647783980297
+      "reach_1000_days": -1580.1674636590278
     }
   },
   "alerts": [],
@@ -79,14 +79,14 @@
     },
     "AI без правил": {
       "cost": 100,
-      "potential_revenue": 402.85714285714283,
-      "roi_percent": 302.85714285714283,
+      "potential_revenue": 404.2857142857143,
+      "roi_percent": 304.2857142857143,
       "status": "profitable"
     },
     "Исследователь Счастья": {
       "cost": 100,
-      "potential_revenue": 461.42857142857144,
-      "roi_percent": 361.42857142857144,
+      "potential_revenue": 462.8571428571429,
+      "roi_percent": 362.8571428571429,
       "status": "profitable"
     },
     "После Титров": {

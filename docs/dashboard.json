@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T18:36:36.912314",
+  "generated_at": "2026-02-26T19:17:05.357733",
   "summary": {
     "total_reach": 155,
     "growth_last_24h": 0.0,
@@ -44,7 +44,7 @@
       {
         "name": "После Титров",
         "username": "@watchx2",
-        "subscribers": 35,
+        "subscribers": 34,
         "bot_is_admin": true
       },
       {
@@ -91,8 +91,8 @@
     },
     "После Титров": {
       "cost": 100,
-      "potential_revenue": 50.00000000000001,
-      "roi_percent": -49.99999999999999,
+      "potential_revenue": 48.57142857142858,
+      "roi_percent": -51.42857142857142,
       "status": "loss"
     },
     "Шум Мотора (Palych)": {
@@ -114,6 +114,12 @@
       "channel": "Шум Мотора",
       "action": "Reduce costs or pivot strategy",
       "reason": "ROI is -85.5% (losing money)"
+    },
+    {
+      "priority": "HIGH",
+      "channel": "После Титров",
+      "action": "Reduce costs or pivot strategy",
+      "reason": "ROI is -51.4% (losing money)"
     }
   ]
 }
